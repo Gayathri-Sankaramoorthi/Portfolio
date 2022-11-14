@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gayathri Sankaramoorthi</title>
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Acme&family=Lato" >
+    <script src="https://kit.fontawesome.com/fcca31b7fc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Home -->
+    <div class="container">
+        <header>
+            <a href="index.html"><img class="logo" src="images/logo.png"></a>
+            <nav id="nav-links">
+                <a href="#home">Home</a>
+                <a href="#me">About</a>
+                <a href="#pro">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="nav-menu" onclick="menu(this)">
+                <div class="dot1"></div>
+                <div class="dot2"></div>
+                <div class="dot3"></div>
+            </div>
+        </header>
+        <section id="#home">
+            <main class="home">
+                <div class="greeting">
+                    <p><span class="top">Welcome</span>
+                    <span class="right">to </span>
+                    <span class="bottom">my</span>
+                    <span class="left">site&nbsp;...</span></p>
+                </div>
+                <div class="intro">
+                    <h1><span>I'm</span>&nbsp;&nbsp;<code>Gayathri</code></h1>
+                    <img class="cartoon" src="images/cartoon.png">
+                    <h3><span>An autodidact</span>&nbsp;<br>Front-end Web developer</h3>
+                    <a href="Resume.pdf" download><button>Resume&nbsp;&nbsp;<i class="fa-solid fa-file-arrow-down icon"></i></button></a>
+                </div>
+            </main>
+        </section>
+    </div>
+    <!-- About -->
+    <div class="container">
+        <section id="me">
+            <div class="heading"><h2>About Me</h2></div>
+            <img src="images/profile-picture.png" class="profile-pic">
+            <small class="para" style="margin: 10px;color: #0628a1;font-family: Lato,sans-serif;text-align: justify;font-weight:600;">
+                    I am passionate to see myself as a software developer. 
+                    I begin my journey as an front-end web developer.
+                    Currently I seeking front-end developer job.</small>
+            <main class="me">
+                <div class="skills">
+                    <h4>SKILLS</h4>
+                    <code class="skill">HTML</code>
+                    <div class="skill-bar">
+                        <span class="html level"></span>
+                    </div>
+                    <code class="skill">CSS</code>
+                    <div class="skill-bar">
+                        <span class="css level"></span>
+                    </div>
+                    <code class="skill">Javascript</code>
+                    <div class="skill-bar">
+                        <span class="js level"></span>
+                    </div>
+                    <code class="skill">React</code>
+                    <div class="skill-bar"> 
+                        <span class="react level"></span>
+                    </div>
+                </div>
+                <div class="edu">
+                    <h4>EDUCATION</h4>
+                    <table>
+                        <tr><th class="institute" colspan="3"><small>Government College of Engineering, Srirangam</small></th></tr>
+                    <tr>
+                        <td><small>BE(ECE)</small></td>
+                        <td><small>80.05%</small></td>
+                        <td><small>2018-2022</small></td>
+                    </tr>
+                    <tr><th  class="institute" colspan="3"><small>S N M Matric Hr Sec School, Sivakasi</small></th></tr>
+                    <tr>
+                        <td><small>HSC</small></td>
+                        <td><small>87.25%</small></td>
+                        <td><small>2017-2018</small></td>
+                    </tr>
+                    <tr>
+                        <td><small>SSLC</small></td>
+                        <td><small>94.5%</small></td>
+                        <td><small>2015-2016</small></td>
+                    </tr>
+                    </table>
+                </div>
+            </main>
+         </section>
+    </div>
+    <!-- Projects -->
+    <div class="container">
+        <section id="pro">
+            <div class="heading"><h2>Projects</h2></div>
+            <div class="front-end">
+                <p><a href="https://gayathri-sankaramoorthi.github.io/Digital-Wall-Clock-Model/" target="_blank">Digital Wall Clock Model</a></p>
+                <p><a href="https://gayathri-sankaramoorthi.github.io/Simple-Calculator/" target="_blank">Simple Calculator</a></p>
+            </div>
+        </section>
+    </div>
+    <!-- contact -->
+    <div class="container">
+        <section id="contact">
+            <div class="heading"><h2>Contact</h2></div>
+            <form class="msg" name="submit-to-google-sheet">
+                <input type="text" placeholder="Your Name" name="NAME" required><br>
+                <input type="email" placeholder="Your Mail-id" name="MAIL-ID" required><br>
+                <input type="tel" placeholder="Your Phone number" name="MOBILE" pattern="[0-9]{10}" required><br>
+                <textarea placeholder="Message" name="MESSAGE" required></textarea>
+                <button type="submit">Send &nbsp;&nbsp;<i class="fa-solid fa-paper-plane icon"></i></button>
+            </form>
+            <small id="sent"></small>
+            <footer>
+                <div class="link">
+                <a href="https://www.linkedin.com/in/gayathri-s-5b5513249/"target="_blank"><i class="fa-brands fa-linkedin contact "></i></a>
+                <a href="https://github.com/Gayathri-Sankaramoorthi" target="_blank"><i class="fa-brands fa-github contact"></i></a>
+                </div>
+                <div class="direct">
+                    <span class="dir"><i class="fa-solid fa-phone"></i>&nbsp;&nbsp;6369431614</span><br>
+                    <span class="dir"><i class="fa-regular fa-envelope"></i>&nbsp;&nbsp;gayathrisankaramoorthi@gmail.com</span>
+                </div>
+            </footer>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
